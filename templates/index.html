@@ -1,0 +1,50 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cupcakes</title>
+ <style type="text/css">
+ .Cupcake-img {
+  max-width: 200px;
+  max-height: 200px;
+}
+.clear {
+    margin: 5px;
+}
+ </style>
+</head>
+<body>
+    <h1>Here are different flavors of cupcakes!</h1>
+    <ul id="cupcakes-list">
+    </ul>
+
+    <h2>Add new cupcakes here!</h2>
+    <form id="new-cupcake-form">
+        <div>
+          <label for="form-flavor">Flavor: </label>
+          <input name="flavor" id="form-flavor">
+        </div>
+        <div class="clear"></div>
+        <div>
+            <label for="form-rating">Rating: </label>
+            <input name="flavor" id="form-rating">
+          </div>
+          <div class="clear"></div>
+        <div>
+            <label for="form-size"> Size:  </label>
+            <input name="flavor" id="form-size">
+          </div>
+          <div class="clear"></div>
+          <div>
+            <label for="form-image">Image: </label>
+            <input name="image" id="form-image">
+          </div>
+          <div class="clear"></div>
+          <button>Add</button>
+         </form>
+         <script src="https://unpkg.com/jquery"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="/static/cake.js"></script>
+         </body>
+         </html>
